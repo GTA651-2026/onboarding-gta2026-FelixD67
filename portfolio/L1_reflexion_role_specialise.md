@@ -8,31 +8,31 @@
 
 ## Cas choisi
 
-_(Klarna / GitHub Copilot Enterprise / Morgan Stanley)_
+Morgan Stanley
 
 ## 1. Probleme d'affaires resolu
 
-_(En 2-3 phrases : quel probleme concret l'organisation cherchait-elle a resoudre ?)_
+Recherche complexe à effectuer pour prendre des décisions à travers une trop grande quantité de rapports. Travail long et fastidieux souvent remise à des juniors qui devront trop travailler.
 
 ## 2. Fonction d'affaires ciblee
 
-_(Service client, developpement logiciel, analyse financiere, etc.)_
+Analyse financière
 
 ## 3. Role specialise que l'agent orchestre
 
-_(Nommez-le precisement : agent de service client, agent developpeur, agent analyste, etc.)_
+Agent analyste de recherche.
 
 ## 4. Valeur creee — quantifiee avec donnees publiques
 
-_(Chiffres concrets issus des sources du cours. Ex. : 700 agents equivalents, 55 % plus rapide, etc.)_
+Le gestionnaire peut avoir des réponses immédiates à ses questions, analyse en temps réel, moins de travail low value pour les juniors.
 
 ## 5. Risque principal et mitigation concrete
 
-_(Quel est le risque le plus important ? Quelle mesure concrete le reduit ?)_
+Hallucination de l'agent (mauvaises réponses), perte du rôle des juniors, fuite de données. Pour mitiger on entraine le modèle assez et on prévient les restructurations en garantissant des postes juniors.
 
 ## 6. Condition de succes pour votre organisation
 
-_(Qu'est-ce qui doit etre en place pour que ce deploiement agentique fonctionne ?)_
+Une équipe spécialisée, un plan concret, un suivi avant pendant et après le projet, une qualité de données très bonne pour développer le modèle, etc.
 
 ---
 

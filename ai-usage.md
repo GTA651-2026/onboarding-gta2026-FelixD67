@@ -11,7 +11,7 @@
 ## 1. Outil utilisé
 
 Outil : Aucun
-Version / date d'accès : __
+Version / date d'accès : Aucun
 
 *(Si plusieurs outils, dupliquez cette section.)*
 
@@ -21,7 +21,7 @@ Version / date d'accès : __
 
 *(Tâche précise — ex. : « structurer la section ROI », pas : « écrire le travail ».)*
 
-__
+Aucun
 
 ---
 
@@ -29,7 +29,7 @@ __
 
 *(Pour chaque affirmation ou chiffre fourni par l'IA → source primaire consultée.)*
 
-- __
+- Aucun
 - __
 
 ---
@@ -38,7 +38,7 @@ __
 
 *(Ce que l'IA a proposé mais que vous avez changé, corrigé ou écarté — et pourquoi.)*
 
-- __
+- Aucun
 - __
 
 ---
@@ -48,5 +48,5 @@ __
 Je déclare que le contenu final reflète mon jugement personnel. Je suis responsable
 de l'exactitude, de la pertinence et du raisonnement — outil IA utilisé ou non.
 
-Nom : __
-Date : __
+Nom : Félix Desrochers
+Date : 2026-05-20

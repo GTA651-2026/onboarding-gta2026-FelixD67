@@ -10,7 +10,7 @@
 
 ## 1. Outil utilisé
 
-Outil : __
+Outil : Aucun
 Version / date d'accès : __
 
 *(Si plusieurs outils, dupliquez cette section.)*

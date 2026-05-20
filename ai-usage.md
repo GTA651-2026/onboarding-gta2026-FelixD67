@@ -10,8 +10,8 @@
 
 ## 1. Outil utilisé
 
-Outil : Aucun
-Version / date d'accès : Aucun
+Outil : ChatGPT
+Version / date d'accès : 5.5
 
 *(Si plusieurs outils, dupliquez cette section.)*
 
@@ -19,9 +19,7 @@ Version / date d'accès : Aucun
 
 ## 2. Ce qu'il m'a aidé à faire
 
-*(Tâche précise — ex. : « structurer la section ROI », pas : « écrire le travail ».)*
-
-Aucun
+Transformer le fichier markdown final en fichier PDF, sans modifier aucune partie du travail.
 
 ---
 
@@ -29,7 +27,7 @@ Aucun
 
 *(Pour chaque affirmation ou chiffre fourni par l'IA → source primaire consultée.)*
 
-- Aucun
+- NA
 - __
 
 ---
@@ -38,7 +36,7 @@ Aucun
 
 *(Ce que l'IA a proposé mais que vous avez changé, corrigé ou écarté — et pourquoi.)*
 
-- Aucun
+- NA
 - __
 
 ---

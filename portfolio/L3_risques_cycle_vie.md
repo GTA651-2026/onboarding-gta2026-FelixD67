@@ -1,7 +1,9 @@
 # L3 — Risques du cycle de vie d'un agent IA
 
 **Étudiant·e** : FelixD67 - Félix Desrochers
-**Séance** : S03 — Déployer et gérer un agent IA  
+
+**Séance** : S03 — Déployer et gérer un agent IA
+
 **Date limite** : avant le début de S04
 
 ---

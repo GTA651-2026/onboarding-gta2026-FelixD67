@@ -10,8 +10,8 @@
 
 ## 1. Outil utilisé
 
-Outil : ChatGPT
-Version / date d'accès : 5.5
+Outil : Aucun
+Version / date d'accès : --
 
 *(Si plusieurs outils, dupliquez cette section.)*
 
@@ -19,7 +19,7 @@ Version / date d'accès : 5.5
 
 ## 2. Ce qu'il m'a aidé à faire
 
-Transformer le fichier markdown final en fichier PDF, sans modifier aucune partie du travail.
+--
 
 ---
 
@@ -47,4 +47,4 @@ Je déclare que le contenu final reflète mon jugement personnel. Je suis respon
 de l'exactitude, de la pertinence et du raisonnement — outil IA utilisé ou non.
 
 Nom : Félix Desrochers
-Date : 2026-05-20
+Date : 2026-05-27

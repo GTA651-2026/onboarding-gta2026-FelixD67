@@ -1,86 +1,87 @@
 # Rétroaction automatisée -- S01 (L'IA générative et l'ère agentique : orchestrer des experts sans en être un)
 
-_Générée le 2026-05-28T20:16:39+00:00 -- Run `20260528T200936Z-acdfcf6a`_
+_Générée le 2026-05-28T20:50:30+00:00 -- Run `20260528T204526Z-4170164e`_
 
-Ce document est produit par un pipeline reproductible (vérification SQL déterministe + analyse LLM du brief et de la déclaration IA). Une revue humaine précède toujours sa publication. **À ce stade expérimental, aucune note ni étiquette de niveau n'est diffusée : l'objectif est purement formatif.**
+Ce document est produit par un pipeline reproductible (validation automatique du livrable + analyse LLM du brief et de la déclaration IA). Une revue humaine précède toujours sa publication. **À ce stade expérimental, aucune note ni étiquette de niveau n'est diffusée : l'objectif est purement formatif.**
 
 ---
 
-## 1. Vérification automatique de la requête SQL
+## 1. Rétroaction pédagogique sur le brief
 
-La vérification automatique n'a pas pu être réalisée (gate non applicable (type=text_artifact, must_run=False)).
-
-
-## 2. Rétroaction pédagogique sur le brief
-
-> Le brief identifie un problème métier pertinent pour Morgan Stanley et nomme un rôle spécialisé, mais reste trop général et manque de quantification, de justification par critères et de recommandations argumentées. Pour améliorer, ajoutez des chiffres concrets, une grille d'évaluation avec justifications et une recommandation contextuelle explicitant les compromis.
+> Le brief identifie un problème d'affaires pertinent pour Morgan Stanley et nomme un rôle d'agent, mais il manque de précisions organisationnelles, de justifications chiffrées et d'une recommandation argumentée. Pour améliorer, fournissez une grille de critères justifiée, quantifiez la valeur attendue et formalisez des mitigations et conditions de succès mesurables.
 
 ### Observations par dimension
 
 **Contexte organisationnel**
-- Observation : Le brief indique seulement «Morgan Stanley» sans préciser taille, budget ni différenciation PME vs grande entreprise.
-- Piste d'amélioration : Ajouter une brève fiche contextuelle (taille, secteur, budget approximatif) et expliciter comment la recommandation diffère pour une PME vs une grande entreprise.
+- Observation : Le brief se contente d'indiquer « Morgan Stanley » sans taille, budget ou différenciation PME vs grande entreprise.
+- Piste d'amélioration : Précisez le profil organisationnel (taille, secteur, budget) et donnez une recommandation distincte pour PME et grande entreprise.
 
 **Justification criteres**
-- Observation : Aucune grille avec critères (impact, faisabilité, risque, coût) ou justifications factuelles n'est fournie dans le document.
-- Piste d'amélioration : Présenter une grille pour les trois agents avec les quatre critères et fournir au moins une justification chiffrée ou une hypothèse vérifiable pour chaque cellule.
+- Observation : Aucune grille de sélection ni justification factuelle des scores (impact, faisabilité, risque, coût) n'est fournie.
+- Piste d'amélioration : Fournissez une grille avec les trois agents évalués et une justification chiffrée ou hypothèse vérifiable pour chaque critère.
 
 **Role specialise identifie**
-- Observation : Le rôle est nommé «Agent analyste de recherche», ce qui exprime la fonction métier ciblée.
-- Piste d'amélioration : Préciser pour un des agents un exemple concret d'activité métier (ex. : «produit un résumé exécutif de 1 page pour le gestionnaire») et chiffrer la valeur attendue.
+- Observation : L'étudiant nomme « Agent analyste de recherche », mais la description reste minimale et en termes génériques.
+- Piste d'amélioration : Développez le rôle en langage métier (ex. : quelles décisions spécifiques il supporte) et illustrez par un exemple concret.
 
 **Recommandation argumentee**
-- Observation : Le brief décrit le problème et les risques mais ne formule pas de recommandation finale ni n'expose les compromis entre options.
-- Piste d'amélioration : Formuler une recommandation claire (par contexte) et expliciter pourquoi les autres options sont écartées en termes de valeur et risque.
+- Observation : Aucune recommandation finale claire ou compromis entre options n'est formulé dans le document.
+- Piste d'amélioration : Formulez une recommandation par contexte (PME vs grande entreprise), expliquez pourquoi elle est retenue et pourquoi les autres options sont écartées.
 
 **Role specialise**
-- Observation : Le document indique que les recherches sont «remises à des juniors» et mentionne une possible perte de rôle, sans détailler quel expert est remplacé ou augmenté.
-- Piste d'amélioration : Identifier précisément l'expert humain concerné (ex. : analyste junior en recherche actions), expliquer comment l'agent l'augmente ou le remplace et pourquoi ce rôle est stratégique.
+- Observation : Le texte évoque la réduction du travail des juniors mais n'explique pas quel expert humain est remplacé/augmenté ni pourquoi c'est stratégique.
+- Piste d'amélioration : Indiquez précisément quel expert est affecté (ex. : chercheur financier senior, analyste crédit) et pourquoi ce rôle est stratégique pour Morgan Stanley.
 
 **Probleme affaires**
-- Observation : Le problème est formulé de façon exécutive: «Recherche complexe... Travail long et fastidieux souvent remise à des juniors».
-- Piste d'amélioration : Ajouter un ancrage chiffré (ex. : heures par mois perdues, nombre de rapports traités) pour renforcer l'urgence et la portée du problème.
+- Observation : Le problème est formulé clairement : recherches complexes et travail fastidieux souvent confié à des juniors.
+- Piste d'amélioration : Ajoutez un ancrage chiffré ou un exemple concret (p. ex. temps moyen passé par rapport à un objectif) pour renforcer l'argument exécutif.
 
 **Valeur creee**
-- Observation : La valeur est décrite qualitativement («réponses immédiates», «moins de travail low value pour les juniors») sans quantification.
-- Piste d'amélioration : Quantifier l'impact attendu (ex. : réduction du temps de recherche de X%, ou réaffectation de Y heures/mois) et relier directement ces chiffres au rôle de l'agent.
+- Observation : La valeur est décrite qualitativement (réponses immédiates, moins de travail low value pour les juniors) sans quantification.
+- Piste d'amélioration : Quantifiez la valeur attendue (ex. : réduction du temps de recherche de X %, ou gain de productivité estimé pour les juniors).
 
 **Risque mitigation**
-- Observation : Les risques sont nommés (hallucination, fuite de données, perte d'emplois) et la mitigation citée est vague («on entraine le modèle assez», garanties de postes juniors).
-- Piste d'amélioration : Proposer des mesures concrètes et actionnables (ex. : validation humaine systématique, audits périodiques, clauses contractuelles sur la sécurité des données).
+- Observation : Les risques (hallucination, perte de postes, fuite de données) sont identifiés et des mitigations générales sont proposées (entraînement, garanties pour les juniors).
+- Piste d'amélioration : Rendez les mitigations actionnables (ex. : protocole de validation des réponses, audits réguliers, clauses contractuelles de sécurité).
 
 **Condition succes**
-- Observation : La condition de succès liste composants (équipe spécialisée, plan, suivi, qualité de données) mais sans indicateur mesurable ni horizon temporel.
-- Piste d'amélioration : Formuler une condition observable et chiffrée (ex. : adoption utilisateur > 70% en 6 mois, réduction des tâches manuelles de 40% en 12 mois).
+- Observation : La condition de succès mentionne une équipe spécialisée, un plan et une qualité de données élevée, mais reste formulée de façon non-mesurable.
+- Piste d'amélioration : Transformez ces éléments en indicateurs observables (ex. : adoption >80% en 6 mois, réduction des recherches manuelles de 50%).
 
 **Ai disclosure**
-- Observation : Le brief rappelle de mettre à jour ai-usage.md, mais n'indique pas la présence ou le contenu du fichier.
-- Piste d'amélioration : Inclure un fichier ai-usage.md précisant outils utilisés (ou «aucun»), étapes d'utilisation, validation humaine et limites observées.
+- Observation : ai-usage.md n'est pas fourni dans le brief et n'est pas renseigné ici.
+- Piste d'amélioration : Ajoutez un ai-usage.md mentionnant les outils utilisés (ou « aucun »), l'étape d'utilisation, la validation humaine et les limites observées.
 
-## 3. Déclaration d'utilisation de l'IA
+_Quelques points appellent une attention particulière lors de la prochaine itération : ai_usage_missing._
 
-> L'étudiant a clairement déclaré qu'aucun outil d'IA n'a été utilisé et a signé la déclaration de responsabilité. Cependant, certaines sections restent très génériques (par ex. « -- » ou « NA ») plutôt que des phrases explicites confirmant l'absence d'usage dans chaque rubrique.
+## 2. Déclaration d'utilisation de l'IA
+
+> La déclaration indique clairement qu'aucun outil d'IA n'a été utilisé pour ce livrable. Toutefois, elle ne mentionne pas explicitement les limites ou erreurs observées (même pour préciser qu'il n'y en a pas), ce qui était requis.
 
 **Sujets bien couverts dans votre déclaration :**
 
 - outils utilisés (nom + version/modèle)
 - à quelle étape l'IA a été utilisée
 - comment la sortie a été validée par l'humain
+
+**Sujets à ajouter ou expliciter pour la prochaine itération :**
+
 - limites ou erreurs observées
 
-## 4. Pistes d'action pour la prochaine itération
+## 3. Pistes d'action pour la prochaine itération
 
-- Aucune correction technique nécessaire. Voir la section 2 pour des pistes d'approfondissement.
+- Réviser le brief en tenant compte des observations par dimension de la section 1.
+- Compléter i-usage.md en y ajoutant : limites ou erreurs observées.
 
 ---
 
-## 5. Traçabilité
+## 4. Traçabilité
 
-- **Run ID :** `20260528T200936Z-acdfcf6a`
+- **Run ID :** `20260528T204526Z-4170164e`
 - **Devoir :** `S01`
 - **Étudiant·e :** `FelixD67`
-- **Commit analysé :** `051afe0`
-- **Audit (côté instructeur) :** `tools/instructor/feedback_pipeline/audit/20260528T200936Z-acdfcf6a/FelixD67/`
+- **Commit analysé :** `69c18b4`
+- **Audit (côté instructeur) :** `tools/instructor/feedback_pipeline/audit/20260528T204526Z-4170164e/FelixD67/`
 - **Prompts (SHA-256) :**
   - `rubric_grader_system` : `505f32d1d8319d66...`
   - `ai_usage_grader_system` : `81cb7fdf89bda55a...`
